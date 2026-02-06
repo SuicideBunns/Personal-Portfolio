@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("Images/redpic.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+
+body.education-page {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("Images/redpic.jpg") center/cover no-repeat fixed;
+}
+
+
+body.contact-page {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("Images/redpic.jpg") center/cover no-repeat fixed;
+}
+
+.navbar {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    align-items: center;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.basta {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("Images/RB-background.jpg") center/cover no-repeat;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.basta h1 {
+    color: white;
+    font-size: 40px;
+}
+
+
+.divider {
+    border: 1px solid white;
+}
+
+
+.about {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 50px;
+}
+
+
+.about h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+
+.about-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.about-image img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+
+.about-text h3 {
+    font-size: 36px;
+    color: #e0b08c;
+}
+
+
+.about-text h3 span {
+    color: red;
+}
+
+
+.about-text h4 {
+    color: red;
+    margin: 10px 0 20px;
+}
+
+
+.about-text p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    max-width: 500px;
+}
+
+
+.education {
+    background-color: background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 60px;
+}
+
+.edu-item {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+
+.edu-image img {
+    width: 260px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.edu-text h3 {
+    font-size: 28px;
+    color: #e0b08c;
+    margin-bottom: 8px;
+}
+
+.edu-text h4 {
+    color: red;
+    margin-bottom: 15px;
+}
+
+.edu-text p {
+    max-width: 500px;
+    line-height: 1.6;
+}
+
+
+.edu-divider {
+    border: 1px solid #e0b08c;
+    width: 70%;
+    margin: 40px auto;
+}
+
+
+.contact {
+    background-color: background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 60px;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.contact-content a {
+    color: #e0b08c;
+    text-decoration: none;
+}
+
+.contact-content a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.contact-list {
+    margin-top: 30px;
+}
+
+
+.contact-item {
+    font-size: 18px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.contact-item i {
+    font-size: 22px;
+    color: #e0b08c;
+    /* gold */
+    width: 25px;
+}
+
+
+.contact-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: #e0b08c;
+    text-decoration: underline;
+}
